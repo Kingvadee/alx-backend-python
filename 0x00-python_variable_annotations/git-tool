@@ -1,0 +1,4 @@
+#!/bin/bash
+git add __pycache__
+git commit -m "python cache file"
+git push
