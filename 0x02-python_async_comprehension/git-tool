@@ -1,0 +1,7 @@
+#!/bin/bash
+python3 2-main.py
+mv 2-main.py ./test/
+git add test
+git commit -m "Test file for task 2."
+git push
+
