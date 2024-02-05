@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module for testing the client module.
+"""A module for testing the client module.
 """
 import unittest
 from typing import Dict
@@ -161,4 +161,3 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     def tearDownClass(cls) -> None:
         """Removes the class fixtures after running all tests."""
         cls.get_patcher.stop()
-
